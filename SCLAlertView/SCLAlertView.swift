@@ -362,7 +362,7 @@ open class SCLAlertView: UIViewController {
         
         //adjust Title frame based on circularIcon show/hide flag
         let titleOffset : CGFloat = appearance.showCircularIcon ? 0.0 : -12.0
-        labelTitle.frame = labelTitle.frame.offsetBy(dx: 0, dy: titleOffset)
+        labelTitle.frame = labelTitle.frame.offsetBy(dx: 0, dy: 0.0)
         
         // Subtitle
         y = titleActualHeight > 0 ? appearance.kTitleTop + titleActualHeight + titleOffset : hMargin
